@@ -1,4 +1,4 @@
-package joptionpane;
+package joptionpane.lista1;
 
 import javax.swing.JOptionPane;
 
