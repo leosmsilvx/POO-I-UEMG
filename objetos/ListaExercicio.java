@@ -6,11 +6,12 @@ import java.util.Scanner;
 
 public class ListaExercicio {
 
+    public List<Exercicio> exercicios; // Publico pois precisamos acessar a lista no metodo main
+    
     public ListaExercicio(){
         this.exercicios = new ArrayList<>(); // Construtor inicia a lista inicialmente com um array vazio
     }
 
-    public List<Exercicio> exercicios; // Publico pois precisamos acessar a lista no metodo main
 
     public Integer getNumeroExercicios(){ // Metodo para contabilizar quantos exercicios existem na lista
         return exercicios.size(); // O metodo size() retorna o numero de elementos de uma lista

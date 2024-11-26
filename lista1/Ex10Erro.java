@@ -8,9 +8,8 @@ import objetos.Exercicio;
 // O JOptionPane não funciona em uma thread diferente da principal, resumidamente, é necessário rodar esse código na classe main
 // Para manter o padrão das classes de Exercicio, eu criei a classe Ex10Erro, porém não é possível executa-lo junto com os outros
 // Existe uma pasta ./JOptionPane com o arquivo separado, execute por lá!
-public class Ex10Erro extends Exercicio {
+public class Ex10Erro implements Exercicio {
 
-    @Override
     public void execute(Scanner scanner) {
         System.out.println("""
         IMPORTANTE!!!!\n

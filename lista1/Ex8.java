@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex8 extends Exercicio {
+public class Ex8 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         System.out.print("Digite o valor do primeiro cateto: ");
         String bStr = scanner.nextLine();

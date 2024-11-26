@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex5 extends Exercicio {
+public class Ex5 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         System.out.println("Calculadora de funções quadraticas");
         while (true) { // While true pois vou utilizar o break apos a leitura da resposta

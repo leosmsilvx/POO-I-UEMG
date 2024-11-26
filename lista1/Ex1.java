@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex1 extends Exercicio {
+public class Ex1 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         System.out.print("Digite seu nome: ");
         String nome = scanner.nextLine(); // Le o nome digitado pelo usuário

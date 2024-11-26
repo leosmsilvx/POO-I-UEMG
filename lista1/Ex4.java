@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex4 extends Exercicio {
+public class Ex4 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         Double imc = calculaImc(scanner); // Método de calcular IMC
         String grauObesidade = calculaGrauObesidade(imc); // Método de calcular o grau de obesidade

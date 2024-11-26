@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex6 extends Exercicio {
+public class Ex6 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         System.out.println("Calculadora de media Km/L de um carro");
         while (true) { // While true pois vou utilizar o break apos a leitura da resposta

@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex3 extends Exercicio {
+public class Ex3 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         int contador = 0;
         Double salarioTotal = 0.0; // Inicializando o salario total como 0 para que a primeira soma funcione

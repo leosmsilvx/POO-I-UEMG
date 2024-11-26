@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import lista1.Lista1;
+import lista2.Lista2;
 import objetos.ListaExercicio;
 
 public class Main {
@@ -43,8 +44,8 @@ public class Main {
     private static List<ListaExercicio> inicializaListas(){ 
         List<ListaExercicio> listas = new ArrayList<>(); // Inicializa um array vazio
 
-        ListaExercicio lista1 = new Lista1(); // Chama o construtor da classe Lista1
-        listas.add(lista1); // Adiciona a ListaExercicio na lista de ListaExercicio
+        listas.add(new Lista1()); // Adiciona a ListaExercicio Lista1 na lista de ListaExercicio
+        listas.add(new Lista2()); // Adiciona a ListaExercicio Lista2 na lista de ListaExercicio
 
         return listas;
     }

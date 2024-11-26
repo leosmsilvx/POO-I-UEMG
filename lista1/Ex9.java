@@ -7,9 +7,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex9 extends Exercicio {
+public class Ex9 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         List<Integer> listaInteiros = new ArrayList<>(); // Utilizando o List do java que armazena objetos do tipo Integer
 

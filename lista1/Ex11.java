@@ -5,9 +5,8 @@ import java.util.Scanner;
 
 import objetos.Exercicio;
 
-public class Ex11 extends Exercicio {
+public class Ex11 implements Exercicio {
 
-    @Override // Override para substituir o metodo da classe pai
     public void execute(Scanner scanner) {
         Integer numeroAleatorio = gerarNumeroAleatorio(); // Chamada do metodo de gerar numero aleatorio
 
