@@ -7,6 +7,7 @@ import lista2.ex3.Ex3Erro;
 import lista2.ex4.Ex4;
 import lista2.ex5.Ex5;
 import lista2.ex6.Ex6Erro;
+import lista2.ex7.Ex7Erro;
 import objetos.ListaExercicio;
 
 public class Lista2 extends ListaExercicio{
@@ -19,6 +20,7 @@ public class Lista2 extends ListaExercicio{
         exercicios.add(new Ex4());
         exercicios.add(new Ex5());
         exercicios.add(new Ex6Erro());
+        exercicios.add(new Ex7Erro());
     }
     
 }
